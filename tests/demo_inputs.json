@@ -1,0 +1,17 @@
+[
+  {
+    "query": "What is the punishment for marrying again during the lifetime of a spouse?",
+    "expected_section": "494",
+    "expected_keywords": ["marrying", "again", "lifetime", "husband", "wife"]
+  },
+  {
+    "query": "What if someone sells fake prize bonds?",
+    "expected_section": "89-G",
+    "expected_keywords": ["counterfeiting", "prize bond", "unauthorized sale"]
+  },
+  {
+    "query": "What does the law say about forcing a woman into marriage deceitfully?",
+    "expected_section": "493-A",
+    "expected_keywords": ["cohabitation", "deceit", "lawful marriage"]
+  }
+]
