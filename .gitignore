@@ -1,0 +1,16 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Env
+.env
+
+# FAISS index files
+*.index
+*.npy
+
+# VSCode config (optional)
+.vscode/
+
+# Node modules
+frontend/node_modules/

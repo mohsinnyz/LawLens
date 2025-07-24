@@ -1,0 +1,1 @@
+//D:\LawLens\frontend\vite.config.ts

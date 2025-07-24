@@ -1,0 +1,24 @@
+//D:\LawLens\requirements.txt
+
+# Core NLP & RAG
+sentence-transformers==2.2.2
+faiss-cpu==1.7.4
+PyMuPDF==1.22.3
+
+# LangChain + LangGraph
+langchain==0.1.17
+langgraph==0.0.39
+
+# Google Gemini API
+google-generativeai==0.5.4
+
+# Utilities
+numpy
+tqdm
+
+# Testing & CLI
+pytest
+rich
+
+# Optional: If you need environment variable support
+python-dotenv
