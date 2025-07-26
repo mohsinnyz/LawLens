@@ -1,6 +1,5 @@
 #D:\LawLens\vectorstore\indexer.py
 
-
 import json
 import numpy as np
 import faiss

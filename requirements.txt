@@ -1,5 +1,5 @@
 # Core NLP & RAG
-sentence-transformers==2.2.2
+sentence-transformers
 faiss-cpu==1.7.4
 PyMuPDF==1.22.3
 
@@ -25,3 +25,4 @@ python-dotenv
 uvicorn
 
    
+pdfminer.six

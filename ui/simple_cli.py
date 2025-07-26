@@ -1,6 +1,6 @@
 # D:\LawLens\ui\simple_cli.py
 
-from langgraph.graph_builder import build_lawlens_graph
+from langgraph_utils.graph_builder import build_lawlens_graph
 
 def main():
     print("📚 Welcome to Law Lens - Your AI Legal Assistant\n")

@@ -4,8 +4,7 @@ from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import uvicorn
-
-from langgraph.graph_builder import analyze_with_graph
+from langgraph_utils.graph_builder import analyze_with_graph
 
 app = FastAPI()
 
