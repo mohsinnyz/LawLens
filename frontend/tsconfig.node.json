@@ -1,0 +1,14 @@
+
+// D:\LawLens\frontend\tsconfig.node.json
+{
+  "compilerOptions": {
+    "composite": true,
+    "esModuleInterop": true, // Often needed for interoperability
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true, // Allows default imports from modules with no default export
+    "strict": true,
+    "types": ["node"] // Include Node.js types for better intellisense in vite.config.ts
+  },
+  "include": ["vite.config.ts"]
+}

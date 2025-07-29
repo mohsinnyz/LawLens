@@ -1,0 +1,26 @@
+// D:\LawLens\frontend\tsconfig.json
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx", // THIS IS THE CRUCIAL PART FOR JSX
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src"], // Tells TypeScript to include files in the 'src' directory
+  "references": [{ "path": "./tsconfig.node.json" }] // Often includes a separate config for Node.js environment types, like for vite.config.ts
+}

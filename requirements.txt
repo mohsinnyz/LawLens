@@ -14,15 +14,18 @@ google-generativeai==0.5.4
 numpy
 tqdm
 
+# Document Parsing
+pdfminer.six
+# If you are parsing other formats (e.g., docx), you might need:
+# python-docx
+
+# API server
+fastapi
+uvicorn
+
 # Testing & CLI
 pytest
 rich
 
 # Environment variable support
 python-dotenv
-
-# API server
-uvicorn
-
-   
-pdfminer.six
