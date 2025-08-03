@@ -17,3 +17,5 @@ frontend/node_modules/
 
 # Virtual environment
 venv/
+
+echo frontend/dist/
